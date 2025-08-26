@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f9f9f9;
+    font-family: "Montserrat";
+    margin: 0;
+}
+
+a {
+    color: #181818;
+}
+
+.header-nav {
+    background-color: #00aeff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.header-marca {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+main {
+    background-image: url(./images/backgroud-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 115px;
+    color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.main-p {
+    font-size: 24px;
+    width: 637px;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 69px;
+}
+
+section p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 17px;
+}
+
+.maior1 {
+    margin-top: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 90px;
+}
+.card-tenis {
+    background-color: #ebe9ea;
+    width: 415px;
+    height: 302px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section div img {
+    width: 250px;
+    height: 150px;
+    margin-top: 76px;
+    margin-bottom: 76px;
+    margin-left: 83px;
+    margin-right: 82px;
+}
+
+footer {
+    background-color: #00aeff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    padding: 10px;
+}
+
+@media (max-width: 400px) {
+   
+
+    .card-tenis{
+        width: 100%;
+        margin: 0 10px;
+    }
+}
